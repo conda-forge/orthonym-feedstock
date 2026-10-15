@@ -1,6 +1,6 @@
 context:
   name: orthonym
-  version: "1.0.7"
+  version: "1.0.8"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 5163c9ebf12846b9c21da004ae5e3a7206b12cd80fdec5f12b436c0793ee370f
+  sha256: a6de636c95744ff0a351a51dce526eeaa7227512204b60db8a37c80dc4d731eb
 
 build:
   number: 0
